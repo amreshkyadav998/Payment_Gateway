@@ -9,6 +9,8 @@ import {
 } from "@material-tailwind/react";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
+import car from '../assets/car.avif'
+
 
 export default function ProductCard() {
     const [amount, setAmount] = useState(350);
@@ -95,7 +97,7 @@ export default function ProductCard() {
         <Card className="mt-6 w-96 bg-black text-white">
             <CardHeader color="blue-gray" className="relative h-96 bg-[#2C3A47]">
                 <img
-                    src="https://img.freepik.com/free-photo/modern-car-driving-city_23-2151674271.jpg?ga=GA1.1.1960653922.1712669991&semt=sph"
+                    src={car}
                     alt="card-image"
                 />
             </CardHeader>
