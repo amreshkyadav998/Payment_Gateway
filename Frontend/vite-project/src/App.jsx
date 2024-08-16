@@ -6,7 +6,7 @@ import ProductCard from "./components/ProductCard";
 const App = () => {
   return (
     <div className="relative min-h-screen">
-      {/* Background Image */}
+      {/* Background Image *//}
       <img
         src="./background1.jpg"
         alt="Background"
